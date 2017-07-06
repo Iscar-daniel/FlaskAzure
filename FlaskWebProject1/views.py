@@ -25,8 +25,9 @@ def contact():
         year=datetime.now().year,
         message='Your contact page.'
     )
+
 @app.route('/thanks')
-def contact():
+def thanks():
     """Renders the contact page."""
     return render_template(
         'thanks.html',
